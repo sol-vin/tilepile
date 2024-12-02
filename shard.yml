@@ -1,0 +1,21 @@
+name: tilepile
+version: 0.1.0
+
+authors:
+  - Ian Rash <ian@sol.vin>
+
+targets:
+  sandbox:
+    main: src/sandbox.cr
+
+dependencies:
+  raylib-cr:
+    github: sol-vin/raylib-cr
+    branch: master
+  minievents:
+    github: sol-vin/minievents
+
+
+crystal: '>= 1.13.2'
+
+license: MIT
